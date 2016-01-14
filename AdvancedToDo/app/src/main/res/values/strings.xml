@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AssignmentTracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="time_picker_title">Pick Time</string>
+</resources>

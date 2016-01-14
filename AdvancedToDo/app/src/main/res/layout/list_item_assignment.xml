@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/list_item_assignment_finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_assignment_title_text_view"
+        android:layout_toLeftOf="@id/list_item_assignment_finished"
+        android:textStyle="bold"
+        android:padding="4dp"
+        tools:text="Assignment Title"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_assignment_details"
+        android:layout_below="@id/list_item_assignment_title_text_view"
+        android:padding="4dp"
+        tools:text="Assignment Details"/>
+    <TextView
+        android:id="@+id/list_item_assignment_due_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_assignment_title_text_view"
+        android:layout_toRightOf="@id/list_item_assignment_details"
+        android:padding="4dp"
+        tools:text="Due Date"
+        android:gravity="right"
+        android:layout_alignParentEnd="true"/>
+
+
+
+
+</RelativeLayout>
